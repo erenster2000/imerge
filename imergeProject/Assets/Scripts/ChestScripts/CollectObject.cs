@@ -15,9 +15,8 @@ public class CollectObject : MonoBehaviour
     {
         if (collision.CompareTag("PlayerCollider"))
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //Destroy(gameObject);
         }
-
-
     }
 }
