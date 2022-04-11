@@ -13,7 +13,7 @@ public class CollectObject : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("PlayerCollider"));
+        if (collision.CompareTag("PlayerCollider"))
         {
             Destroy(gameObject);
         }
